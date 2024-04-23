@@ -375,3 +375,7 @@ def tweet():
 @app.route('/link')
 def link():
     return render_template('link.html',title='GitHub Link')
+
+@app.route('/feargreed')
+def fng():
+    return render_template('feargreed.html',title='F&G')
